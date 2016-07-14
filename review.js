@@ -15,7 +15,7 @@ function sqaure(answerHere)
   return answerHere * answerHere;
 }
 
-numberFunction(numArray, sqaure);
+numberFunction(numArray, sqaure); //calls a function 
 
 console.log('------------ example 2 ------------');
 
@@ -32,7 +32,7 @@ function numberFunction(original, callback)
 numberFunction(numArray, function (answerHere)
 {
   return answerHere * answerHere;
-});
+}); //uses annonymus function in argument
 
 
 console.log('------------ example 1 ------------');
